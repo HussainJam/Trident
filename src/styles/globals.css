@@ -25,3 +25,22 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* global.css */
+.hero-bg-pattern {
+  background-image: url('../assets/Topbg.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* mix-blend-mode: overlay; */
+}
+
+/* Logos */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
