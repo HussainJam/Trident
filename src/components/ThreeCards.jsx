@@ -26,13 +26,13 @@ const WhyWe = () => {
         {/* Centered Heading */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 max-w-3xl mx-auto">
-            Why <span className="text-[#1AA7AD]">Towasic Solutions</span>
+             <span className="text-[#1AA7AD]">Why Towasic Solutions</span>
           </h2>
           <div className="w-20 h-1 bg-yellow-400 mt-4 mx-auto" />
         </div>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto relative">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-5xl mx-auto relative">
           {/* Decorative line connecting icons */}
           <div className="hidden lg:block absolute top-16 left-0 right-0 h-1 bg-[#1AA7AD] opacity-20 mx-auto w-4/5" />
           

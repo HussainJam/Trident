@@ -4,7 +4,8 @@ import HeroSection from '../components/HeroSection';
 import Journey from '../components/Journey';
 import Logo from '../components/Logos';
 import ThreeCards from '../components/ThreeCards';
-
+import Scraping from '../components/WebScraping';
+import Solution from '../components/Solution';
 // const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -14,6 +15,8 @@ export default function Home() {
      <Journey />
      <Logo />
      <ThreeCards />
+     <Scraping />
+     <Solution />
     </main>
   )
 }

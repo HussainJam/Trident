@@ -45,26 +45,3 @@ export default function HeroSection() {
     </section>
   );
 }
-
-{
-  /* <div className="absolute inset-0 bg-gradient-to-br from-[#0E7985] to-[#6bf8ff]"> */
-}
-{
-  /* <div className="absolute bottom-0 left-0 w-full h-60">
-  <svg
-    viewBox="0 0 1200 100"
-    preserveAspectRatio="none"
-    className="w-full h-full"
-  >
-    <path
-      d="M1200 50 C1000 0 800 0 600 50 C400 100 200 100 0 50"
-      stroke="white"
-      strokeWidth="20"
-      fill="none"
-    />
-  </svg>
-</div> */
-}
-{
-  /* </div> */
-}
