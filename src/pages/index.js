@@ -7,6 +7,8 @@ import ThreeCards from '../components/ThreeCards';
 import Scraping from '../components/WebScraping';
 import Solution from '../components/Solution';
 import Products from '../components/Products';
+import Testimonial from '../components/Testimonial';
+
 // const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -19,6 +21,7 @@ export default function Home() {
      <Scraping />
      <Solution />
      <Products />
+     <Testimonial />
     </main>
   )
 }

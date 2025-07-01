@@ -52,7 +52,7 @@ const ServicesGrid = () => {
               className="relative border-2 border-[#82F2F8] rounded-3xl pt-10 pb-10 px-4 my-3 flex flex-col items-center text-center hover:shadow-xl transition-all duration-300 hover:border-primary hover:shadow-[0_0_15px_rgba(46,213,222,0.5)] w-full max-w-[250px]"
             >
               {/* Icon positioned on top border */}
-              <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-[#2ED5DE] rounded-full flex items-center justify-center border-4 border-white shadow-md">
+              <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 w-20 h-20 bg-[#2ED5DE] rounded-full flex items-center justify-center border-4 border-white shadow-md">
                 <div className="text-white text-2xl">{service.icon}</div>
               </div>
               <h3 className="text-lg font-medium text-gray-900 mt-4">
