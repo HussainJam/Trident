@@ -6,6 +6,7 @@ import Logo from '../components/Logos';
 import ThreeCards from '../components/ThreeCards';
 import Scraping from '../components/WebScraping';
 import Solution from '../components/Solution';
+import Products from '../components/Products';
 // const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
      <ThreeCards />
      <Scraping />
      <Solution />
+     <Products />
     </main>
   )
 }

@@ -3,8 +3,7 @@ import Rectangle from "../assets/Rectangle.svg";
 
 const WhySolution = () => {
   return (
-    <div className="relative h-[200px] md:h-[300px] lg:h-[400px] w-full overflow-hidden">
-      {/* Background Image - SVG needs different handling */}
+    <div className="relative h-[200px] md:h-[300px] lg:h-[300px] w-full overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
           src={Rectangle}

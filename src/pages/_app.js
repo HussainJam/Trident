@@ -10,14 +10,8 @@ export default function App({ Component, pageProps }) {
 
        <Head>
         {/* Website Title */}
-        <title>Trident</title>
-        
-        {/* Favicon - basic version */}
-        <link rel="icon" href="/favicon.ico" />
-        
-     
-        
-        {/* Meta description for SEO */}
+        <title>Trident</title>        
+        <link rel="icon" href="/favicon.ico" />                
         <meta name="description" content="Trident" />
       </Head>
 
